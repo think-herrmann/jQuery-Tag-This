@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish:
-    uses: think-herrmann/axon-core/.github/workflows/shared-publish-npm.yml@main
+    uses: think-herrmann/axon-core/.github/workflows/shared-publish-npm.yml@development
     with:
       package_name: '@think-herrmann/jquery-tag-this'
       build_command: 'npm run build'
